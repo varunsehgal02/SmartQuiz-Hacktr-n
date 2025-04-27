@@ -1,0 +1,82 @@
+[
+    {
+        "type": "MCQ",
+        "question": "What is the output of the following JavaScript code snippet? `let arr = [1,2,3,4]; console.log(arr[0]);`",
+        "options": [
+            "5",
+            "4",
+            "undefined",
+            "NaN"
+        ],
+        "correct_answer": [
+            "1"
+        ],
+        "bloom_level": "Remember",
+        "explanation": "The code accesses the first element of an array, so the output is 1."
+    },
+    {
+        "type": "True/False",
+        "question": "If you initialize an array in JavaScript without any elements, its length is 0.",
+        "options": [
+            "True",
+            "False"
+        ],
+        "correct_answer": [
+            "True"
+        ],
+        "bloom_level": "Understand",
+        "explanation": "An empty array has a length of 0."
+    },
+    {
+        "type": "MCQ",
+        "question": "What is the result of adding two arrays in JavaScript using the '+' operator? `let arr1 = [1,2]; let arr2 = [3,4]; console.log(arr1 + arr2);`",
+        "options": [
+            "[1, 2, 3, 4]",
+            "[1+2, 3+4]",
+            "[1,2,3,4,1,4]",
+            "This operation is invalid in JavaScript"
+        ],
+        "correct_answer": [
+            "This operation is invalid in JavaScript"
+        ],
+        "bloom_level": "Apply",
+        "explanation": "In JavaScript, you cannot add arrays using the '+' operator."
+    },
+    {
+        "type": "Short Answer",
+        "question": "Write a JavaScript function that removes duplicates from an array and sorts it in ascending order.",
+        "options": [],
+        "correct_answer": "function uniqueSort(arr) {\n  return arr.sort((a, b) => a - b).filter((value, index, self) => self.indexOf(value) === index);\n}",
+        "bloom_level": "Analyze",
+        "explanation": "The provided function uses the sort and filter methods to remove duplicates and sort an array in ascending order."
+    },
+    {
+        "type": "True/False",
+        "question": "It's possible to modify the length property of an array in JavaScript to add or remove elements from the end of it.",
+        "options": [
+            "True",
+            "False"
+        ],
+        "correct_answer": [
+            "True"
+        ],
+        "bloom_level": "Evaluate",
+        "explanation": "Modifying the length property allows you to add or remove elements from the end of an array."
+    },
+    {
+        "type": "MCQ",
+        "question": "Which JavaScript array method would be most appropriate for finding all indices of an element within an array?",
+        "options": [
+            "indexOf()",
+            "findIndex()",
+            "map()",
+            "forEach()"
+        ],
+        "correct_answer": [
+            "indexOf()",
+            "findIndex()"
+        ],
+        "bloom_level": "Create",
+        "explanation": "Both indexOf() and findIndex() can be used to find the indices of elements within an array. However, use indexOf() when you need to find the first occurrence and findIndex() when you want to find all occurrences."
+    }
+]

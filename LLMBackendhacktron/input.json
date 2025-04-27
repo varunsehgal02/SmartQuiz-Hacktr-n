@@ -1,0 +1,9 @@
+{
+    "NLPprompt": "Make a quiz on Array DataStructure on critical thinking.",
+    "num_questions": 2,
+    "Difficulty": "Medium",
+    "question_types": ["MCQ", "TrueFalse"],
+    "progressive_bloom": true
+  }
+  
+  
