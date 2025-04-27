@@ -9,7 +9,7 @@ Built with **TypeScript**, **Next.js**, **Firebase**, **TailwindCSS**, and **Oll
 
 - **`SmartQuiz-Hacktr-n/`** (root) → The main **SmartQuiz Architect** web app (Next.js).
 - **`SmartQuizAndroidApp/quizz_app/`** → The **Mobile App** repo (Android app) that uses the **same Firebase backend** and **connects to the same LLM**.
-- **`LLM/`** → Contains code to **connect Ollama** (the self-hosted LLM) to the internet using **Node.js + Express** server.
+- **`LLMBackendhacktron/`** → Contains code to **connect Ollama** (the self-hosted LLM) to the internet using **Node.js + Express** server.
 
 ---
 
